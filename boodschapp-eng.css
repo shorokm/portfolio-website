@@ -1,0 +1,560 @@
+body {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows:  1740px 2900px 3250px 800px;
+	font-family: thonburi;   
+}
+
+/* Page one */
+
+#page1 {
+	background-color: #1DA0DB;
+	margin: -8px;
+}
+
+#arrow {
+	width: 70px;
+	margin-top: 60px;
+	margin-left: 40px;
+}
+
+/* Begin language switch */ 
+
+#language {
+	margin-top: -75px;
+	margin-right: 50px;
+}
+
+#language button {
+	background-color: transparent;
+	color: white; 
+	float: right;
+	border: none;
+	font-size: 42px;
+}
+
+#language #engels {
+	border-left: 2px solid white;
+	opacity: 0.8; 
+}
+
+#language .selected {
+	color: white;
+	font-size: 52px;
+	margin-top: -10px;
+}
+
+/* End language switch */
+
+#page1 h1 {
+	color: white;
+	font-size: 70px;
+	margin-left: 65px;
+	margin-top: 115px;
+}
+
+#page1 p {
+	color: white;
+	font-size: 40px;
+	margin-left: 70px;
+	margin-top: -30px;
+	margin-right: 50px;
+}
+
+#page1 #tabletscherm {
+	display: none;
+}
+
+#page1 #tabletmobile {
+	width: 100%;
+	margin-top: 270px;
+}
+
+/* End page one */
+
+/* Page two */
+
+#page2 {
+	position: relative;
+	z-index: 2;
+	background-color: white;
+	margin: -8px;
+	margin-top: 8px;
+}
+
+#page2 h2 {
+	color: #007DC2;
+	font-size: 52px;
+	margin-left: 60px;
+	margin-top: 80px;
+}
+
+#page2 p {
+	margin-left: 65px;
+	margin-bottom: 60px;
+	margin-right: 39px;
+	font-size: 38px;
+}
+
+#page2 ul {
+	margin-left: 65px;
+	margin-top: -55px;
+	margin-bottom: 50px;
+	font-size: 38px;
+	margin-right: 40px;
+}
+
+/* End page two */
+
+/* Page three */
+
+#page3 {
+	background-color: #1DA0DB;
+	color: white;
+	margin: -8px;
+}
+
+#page3 h2 {
+	font-size: 52px;
+	margin-left: 60px;
+	margin-top: 80px;
+}
+
+#page3 p {
+	margin-left: 65px;
+	margin-right: 39px;
+	margin-bottom: 60px;
+	font-size: 38px;
+}
+
+#page3 #ouderen {
+	width: 40%;
+	margin-left: 160px;
+	margin-top: 50px;
+	border: 0.02px solid white;
+}
+
+#page3 #list {
+	width: 40%;
+	margin-left: 480px;
+	margin-top: -600px;
+	position: relative;
+	z-index: 2;
+	border: 0.02px solid white;
+}
+
+#page3 #program1 {
+	width: 60%;
+	margin-left: 70px;
+	margin-top: -220px;
+	position: relative;
+	z-index: 1;
+	border: 0.02px solid white;
+}
+
+#page3 #program2 {
+	width: 60%;
+	margin-left: 280px;
+	margin-top: -245px;
+	position: relative;
+	z-index: 1;
+	border: 0.02px solid white;
+}
+
+#page3 #link1 button {
+	margin-left: 570px;
+	margin-top: 100px;
+	border: none;
+}
+
+#page3 #link2 button {
+	width: 400px;
+	margin-left: 100px;
+	margin-top: -102px;
+	display: block;
+	border: none;
+}
+
+#page3 a {
+	text-decoration: none;
+}
+
+#page3 button {
+	background-color: white;
+	color: #1DA0DB;
+	width: 350px;
+	height: 100px;
+	font-size: 46px;
+}
+
+/* End page three */
+
+/* Page four */
+#page4 {
+	color: white;
+}
+
+span {
+	width: 1030px;
+	height: 400px;
+	background-color: #BBB1A7;
+	display: block;
+	margin-top: 200px;
+	margin-left: -8px;
+	padding-right: 7px;
+}
+
+#page4 h2 {
+	font-size: 60px;
+	position: absolute;
+	z-index: 2;
+	margin-top: 120px;
+	margin-left: 75px; 
+}
+
+#page4 a {
+	color: white;
+}
+
+#page4 h3 {
+	font-size: 30px;
+	font-weight: lighter;
+	position: absolute;
+	z-index: 2;
+	margin-top: 205px;
+	margin-left: 80px;
+}
+
+#page4 img {
+	width: 400px;
+	height: 400px;
+	margin-left: 645px;
+}
+
+/* End page four */
+
+
+/*ipad */
+@media only screen and (min-width : 640px) 
+and (max-width : 1023px) {
+	body {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1350px 1700px 2670px 780px;
+		font-family: thonburi;   
+	}
+
+	/* Page one */
+	#arrow {
+		width: 60px;
+		margin-top: 50px;
+	}
+
+	/* Begin language switch*/  
+
+	#language {
+		margin-top: -60px;
+		margin-right: 65px;
+	}
+
+	#language button {
+		background-color: transparent;
+		color: white; 
+		float: right;
+		border: none;
+		font-size: 30px;
+	}
+
+	#language #engels {
+		border-left: 2px solid white;
+	}
+
+	#language .selected {
+		color: white;
+		font-size: 40px;
+		margin-top: -9px;
+	}
+
+	/* End language switch */
+	#page1 h1 {
+		margin-top: 85px;
+	}
+
+	#page1 p {
+		font-size: 30px;
+	}
+
+	#page1 #tabletmobile {
+		width: 100%;
+		margin-left: 0px;
+		margin-top: 40px;
+	}
+
+	/* End page one
+
+	/* Page two */
+	#page2 p {
+		margin-bottom: 30px;
+		margin-top: 10px;
+		margin-left: 60px;
+		font-size: 28px;
+		margin-right: 70px;
+	}
+
+	#page2 h2 {
+		margin-top: 60px;
+		margin-bottom: 20px;
+	}
+
+	#page2 ul {
+		margin-top: -25px;
+		margin-bottom: 20px;
+		margin-left: 50px;
+		font-size: 28px;
+	}
+
+	/* End page two */
+
+	/* Page three */
+	#page3 p {
+		font-size: 28px;
+		margin-left: 60px;
+		margin-right: 70px;
+		margin-top: -20px;
+	}
+
+	#page3 #home {
+		width: 50%;
+	}
+
+	#page3 #profiel {
+		width: 50%;
+		margin-left: 400px;
+	}
+
+	#page3 #schema {
+		width: 50%;
+		margin-top: -175px;
+		margin-left: 90px;
+	}
+
+	#page3 button {
+		width: 275px;
+		height: 85px;
+		font-size: 38px;
+		margin-left: 650px;
+		margin-top: 70px;
+	}
+
+	#page3 #link2 button {
+		margin-top: -87px;
+	}
+	/* End page three */
+
+	/* Page four */
+
+	#page4 span {
+		height: 400px;
+		width: 1055px;
+	}
+
+	#page4 img {
+		margin-left: 670px;
+	}
+
+	/* End page four */
+}
+
+/*Dekstop*/
+@media only screen and (min-width : 1024px) {
+	body {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 800px 1080px 800px 550px;
+		font-family: thonburi;   
+	}
+
+	/* Page one */
+		
+	#arrow {
+		width: 40px;
+		margin-top: 40px;
+	}
+
+	/* Begin language switch */ 
+
+	#language {
+		margin-top: -50px;
+		position: absolute;
+		margin-left: 89%;
+		margin-right: 0px;
+		z-index: 4;
+	}
+
+	#language button {
+		background-color: transparent;
+		color: white; 
+		border: none;
+		font-size: 25px;
+	}
+
+	#language #engels {
+		border-left: 2px solid white;
+	}
+
+	#language .selected {
+		color: white;
+		font-size: 30px;
+		margin-top: -4px;
+	}
+
+	/* End language switch */
+
+	#page1 h1 {
+		font-size: 40px;
+		margin-top: 50px;
+	}
+
+	#page1 p {
+		width: 65%;
+		font-size: 22px;
+		margin-top: -20px;
+	}
+
+	#tabletmobile {
+		display: none;
+	}
+
+	#page1 #tabletscherm {
+		display: block;
+		width: 70%;
+		margin-left: 29%;
+		margin-top: -9px;
+	}
+
+	/* End page one */
+
+	/* Page two */
+	#page2 {
+		padding-top: 70px;
+	}
+
+	#page2 h2 {
+		font-size: 35px;
+		margin-left: 200px;
+		margin-top: 40px;
+		margin-bottom: 10px;
+	}
+
+	#page2 p {
+		width: 70%;
+		margin-left: 200px;
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+
+	#page2 ul {
+		margin-top: -15px;
+		margin-left: 180px;
+		font-size: 20px;
+		margin-bottom: 0px;
+	}
+
+	/* End page two */
+
+	/*Page three */
+
+	#page3 h2 {
+		font-size: 35px;
+	}
+
+	#page3 p {
+		font-size: 20px;
+		margin-bottom: 30px;
+		width: 51%;
+		margin-left: 60px;
+	}
+
+	#page3 #ouderen {
+		width: 13%;
+		position: absolute;
+		z-index: 3;
+		margin-left: 82%;
+		margin-top: -240px;
+	}
+
+	#page3 #list {
+		width: 13%;
+		position: absolute;
+		z-index: 3;
+		margin-left: 60%;
+		margin-top: -500px;
+	}
+
+	#page3 #program1 {
+		width: 26%;
+		position: absolute;
+		z-index: 2;
+		margin-left: 70%;
+		margin-top: -460px;
+	}
+
+	#page3 #program2 {
+		width: 26%;
+		position: absolute;
+		z-index: 1;
+		margin-left: 57%;
+		margin-top: -240px;
+	}
+
+	#page3 button {
+		width: 155px;
+		height: 45px;
+		font-size: 22px;
+		margin-left: 60px;
+		margin-top: 10px;
+		border-radius: 8px;
+	}
+
+	#page3 #link1 button {
+		margin-left: 290px;
+		margin-top: 0px;
+	}
+
+	#page3 #link2 button {
+		width: 200px;
+		margin-left: 60px;
+		margin-top: -45.7px;
+	}
+
+	/* End of page three */
+
+	/* Page four */
+
+	#page4 span {
+		height: 300px;
+		margin-top: 150px;
+		padding-right: 17px;
+		width: 99.3%;
+	}
+
+	#page4 img {
+		width: 25%;
+		height: 300px;
+		margin-left: 77%;
+	}
+
+	#page4 h2 {
+		font-size: 42px;
+		margin-left: 400px;
+		margin-top: 85px;
+	}
+
+	#page4 h3 {
+		font-size: 24px;
+		margin-left: 354px;
+		margin-top: 155px;
+	}
+
+	/* End page four */
+}
