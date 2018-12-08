@@ -1,0 +1,491 @@
+body {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1740px 2720px 750px;
+	font-family: thonburi;   
+}
+
+/* Page one */
+
+#page1 {
+	background-color: #BBB2A7;
+	margin: -8px;
+}
+
+#arrow {
+	width: 70px;
+	margin-top: 60px;
+	margin-left: 40px;
+}
+
+/* Begin language switch */ 
+
+#language {
+	margin-top: -75px;
+	margin-right: 50px;
+}
+
+#language button {
+	background-color: transparent;
+	color: white; 
+	float: right;
+	border: none;
+	font-size: 42px;
+}
+
+#language #engels {
+	border-left: 2px solid white;
+	opacity: 0.8; 
+}
+
+#language .selected {
+	color: white;
+	font-size: 52px;
+	margin-top: -9px;
+}
+
+/* End language switch */
+
+#page1 h1 {
+	color: white;
+	font-size: 70px;
+	margin-left: 65px;
+	margin-top: 115px;
+}
+
+#page1 p {
+	color: white;
+	font-size: 40px;
+	margin-left: 70px;
+	margin-top: -30px;
+	margin-right: 50px;
+}
+
+#page1 #camera1 {
+	display: none;
+}
+
+#page1 #camera2 {
+	display: none;
+}
+
+#page1 #cameramobile {
+	width: 100%;
+	margin-top: -40px;
+}
+
+/* End page one */
+
+/* Page two */
+
+#page2 {
+	position: relative;
+	z-index: 2;
+	background-color: white;
+	margin: -8px;
+	margin-top: 8px;
+}
+
+#page2 h2 {
+	color: #BBB2A7;
+	font-size: 52px;
+	margin-left: 60px;
+	margin-top: 80px;
+}
+/* Sliders */
+
+/* Texture and patterns slider */
+
+.mySlides1 {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+#page2 button {
+	border: none;
+	color: #BBB2A7;
+	font-size: 70px;
+	margin-top: -260px;
+	position: absolute;
+	z-index: 3;
+	background-color: transparent;
+}
+
+#page2 #left1{
+	margin-left: 100px;
+	margin-top: -280px;
+}
+
+#page2 #right1 {
+	margin-left: 880px;
+	margin-top: -275px;
+}
+
+/* Styling slider */
+#assignment2 #chocotafel {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+#assignment2 #chocogrond{
+	width: 59%;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+#assignment2 #appel {
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+#page2 #left2 {
+	margin-left: 100px;
+	margin-top: -295px;
+}
+
+#page2 #right2 {
+	margin-left: 880px;
+	margin-top: -300px;
+}
+
+/* Bodyscape slider */
+.mySlides3 {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+#page2 #left3 {
+	margin-left: 100px;
+}
+
+#page2 #right3 {
+	margin-left: 880px;
+	margin-top: -260px;
+}
+
+/* Bodyscape slider */
+#assignment4 #banaan .mySlides4 {
+	width: 35%;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+#assignment4 #inkt .mySlides4 {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+/* End sliders */
+
+/* End page two */
+
+/* Page three */
+#page3 {
+	color: white;
+}
+
+span {
+	width: 1030px;
+	height: 400px;
+	background-color: #1DA0DB;
+	display: block;
+	margin-top: 200px;
+	margin-left: -8px;
+	padding-right: 7px;
+}
+
+#page3 h2 {
+	font-size: 60px;
+	position: absolute;
+	z-index: 2;
+	margin-top: 120px;
+	margin-left: 75px; 
+}
+
+#page3 a {
+	color: white;
+}
+
+#page3 h3 {
+	font-size: 30px;
+	font-weight: lighter;
+	position: absolute;
+	z-index: 2;
+	margin-top: 205px;
+	margin-left: 85px;
+}
+
+#page3 img {
+	width: 400px;
+	height: 400px;
+	margin-left: 645px;
+}
+
+/* End page three */
+
+
+/*ipad */
+@media only screen and (min-device-width : 600px) 
+and (max-device-width : 1279px) {
+		body {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1350px 2650px 700px;
+		font-family: thonburi;   
+	}
+
+	/* Page one */
+	#arrow {
+		width: 60px;
+		margin-top: 50px;
+	}
+
+	/* Begin language switch*/  
+
+	#language {
+		margin-top: -60px;
+		margin-right: 65px;
+	}
+
+	#language button {
+		background-color: transparent;
+		color: white; 
+		float: right;
+		border: none;
+		font-size: 30px;
+	}
+
+	#language #engels {
+		border-left: 2px solid white;
+	}
+
+	#language .selected {
+		color: white;
+		font-size: 40px;
+		margin-top: -9px;
+	}
+
+	/* End language switch */
+	#page1 h1 {
+		margin-top: 85px;
+	}
+
+	#page1 p {
+		font-size: 30px;
+	}
+
+	#page1 #cameramobile {
+		display: none;
+	}
+
+	#page1 #camera1 {
+		width: 1100px;
+		margin-top: -63px;
+		display: block;
+	}
+
+	/* End page one
+
+	/* Page two */
+	#page2 h2 {
+		margin-top: 60px;
+		margin-bottom: 20px;
+	}
+
+	/* Sliders */
+
+	/* Texture and patterns slider */
+	#page2 #right1 {
+		margin-left: 930px;
+		margin-top: -280px;
+	}
+
+	/* Styling slider */
+	#page2 #right2 {
+		margin-left: 930px;
+		margin-top: -280px;
+	}
+
+	/* Bodyscape slider */
+	#page2 #right3 {
+		margin-left: 930px;
+		margin-top: -280px;
+	}
+
+	/* End sliders */
+
+	/* End page two */
+
+	/* Page three */
+
+	#page3 span {
+		height: 400px;
+		width: 1055px;
+	}
+
+	#page3 img {
+		margin-left: 700px;
+	}
+
+	/* End page three */
+}
+
+/*Dekstop*/
+@media only screen and (min-device-width : 1024px) 
+and (max-device-width : 2000px) {
+	body {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 800px 3450px 550px;
+		font-family: thonburi;   
+	}
+
+	/* Page one */
+		
+	#arrow {
+		width: 40px;
+		margin-top: 40px;
+	}
+
+	/* Begin language switch */ 
+
+	#language {
+		margin-top: -50px;
+		position: absolute;
+		margin-left: 89%;
+		margin-right: 0px;
+		z-index: 4;
+	}
+
+	#language button {
+		background-color: transparent;
+		color: white; 
+		border: none;
+		font-size: 25px;
+	}
+
+	#language #engels {
+		border-left: 2px solid white;
+	}
+
+	#language .selected {
+		color: white;
+		font-size: 30px;
+		margin-top: -4px;
+	}
+
+	/* End language switch */
+
+	#page1 h1 {
+		font-size: 40px;
+		margin-top: 50px;
+	}
+
+	#page1 p {
+		width: 47%;
+		font-size: 26px;
+		margin-top: -20px;
+	}
+
+	#page1 #cameramobile {
+		display: none;
+	}
+
+	#page1 #camera1 {
+		display: none;
+	}
+
+	#page1 #camera2 {
+		display: block;
+		width: 45%;
+		margin-left: 52%;
+		margin-top: -270px;
+	}
+
+	/* End page one */
+
+	/* Page two */
+	#page2 {
+		margin-top: 70px;
+	}
+
+	#page2 h2 {
+		font-size: 35px;
+		margin-left: 200px;
+		margin-top: 40px;
+		margin-bottom: 10px;
+	}
+
+	/* Sliders */
+
+	/* Texture and patterns slider */
+	#page2 #right1 {
+		margin-left: 85%;
+		margin-top: -340px;
+	}
+
+	#page2 #left1 {
+		margin-left: 10%;
+		margin-top: -340px;
+	}
+
+	/* Styling slider */
+	#page2 #right2 {
+		margin-left: 85%;
+		margin-top: -340px;
+	}
+
+	#page2 #left2 {
+		margin-left: 10%;
+		margin-top: -340px;
+	}
+
+	/* Bodyscape slider */
+	#page2 #right3 {
+		margin-left: 85%;
+		margin-top: -300px;
+	}
+
+	#page2 #left3 {
+		margin-left: 10%;
+		margin-top: -300px;
+	}
+
+	/* End sliders */
+
+	/* End page two */
+
+	/* Page three */
+
+	#page3 span {
+		height: 300px;
+		margin-top: 150px;
+		padding-right: 17px;
+		width: 99.3%;
+	}
+
+	#page3 img {
+		width: 25%;
+		height: 300px;
+		margin-left: 77%;
+	}
+
+	#page3 h2 {
+		font-size: 42px;
+		margin-left: 393px;
+		margin-top: 85px;
+	}
+
+	#page3 h3 {
+		font-size: 24px;
+		margin-left: 375px;
+		margin-top: 155px;
+	}
+
+	/* End page three */
+}
