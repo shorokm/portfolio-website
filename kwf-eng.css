@@ -1,0 +1,588 @@
+body {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1740px 2900px 4800px;
+	font-family: thonburi;   
+}
+
+/* Page one */
+
+#page1 {
+	background-color: #275799;
+	margin: -8px;
+}
+
+#arrow {
+	width: 70px;
+	margin-top: 60px;
+	margin-left: 40px;
+}
+
+/* Begin language switch */ 
+
+#language {
+	margin-top: -75px;
+	margin-right: 50px;
+}
+
+#language button {
+	background-color: transparent;
+	color: white; 
+	float: right;
+	border: none;
+	font-size: 42px;
+}
+
+#language #engels {
+	border-left: 2px solid white;
+	opacity: 0.8; 
+}
+
+#language .selected {
+	color: white;
+	font-size: 52px;
+	margin-top: -10px;
+}
+
+/* End language switch */
+
+#page1 h1 {
+	color: white;
+	font-size: 70px;
+	margin-left: 65px;
+	margin-top: 115px;
+}
+
+#page1 p {
+	color: white;
+	font-size: 40px;
+	margin-left: 70px;
+	margin-top: -30px;
+	margin-right: 50px;
+}
+
+#page1 #kwfdesktop {
+	display: none;
+}
+
+#page1 #kwfmobiel {
+	width: 980px;
+	margin-top: 82px;
+}
+
+/* End page one */
+
+/* Page two */
+
+#page2 {
+	position: relative;
+	z-index: 2;
+	background-color: white;
+	margin: -8px;
+	margin-top: 8px;
+}
+
+#page2 h2 {
+	color: #275799;
+	font-size: 52px;
+	margin-left: 60px;
+	margin-top: 80px;
+}
+
+#page2 p {
+	margin-left: 65px;
+	margin-bottom: 60px;
+	margin-right: 39px;
+	font-size: 38px;
+}
+
+#page2 ul {
+	margin-left: 65px;
+	margin-top: -55px;
+	margin-bottom: 50px;
+	font-size: 38px;
+	margin-right: 40px;
+}
+
+/* End page two */
+
+/* Page three */
+
+#page3 {
+	background-color: #275799;
+	color: white;
+	margin: -8px;
+}
+
+#page3 button {
+	background-color: white;
+	color: #007DC2;
+	width: 350px;
+	height: 100px;
+	font-size: 46px;
+	border-radius: 8px;
+}
+
+#page3 h2 {
+	font-size: 52px;
+	margin-left: 60px;
+	margin-top: 80px;
+}
+
+#page3 p {
+	margin-left: 65px;
+	margin-right: 39px;
+	margin-bottom: 60px;
+	font-size: 38px;
+}
+
+#page3 h3 {
+	font-size: 44px;
+	margin-left: 70px;
+}
+
+#page3 #poster1 {
+	width: 40%;
+	margin-left: 70px;
+}
+
+#page3 #poster2 {
+	width: 40%;
+	margin-left: 20px;
+}
+
+#page3 #poster3 {
+	width: 40%;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+
+#page3 #poster4 {
+	width: 40%;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#page3 #flyer1 {
+	width: 40%;
+	margin-left: 70px;
+}
+
+#page3 #flyer2 {
+	width: 40%;
+	margin-left: 20px;
+}
+
+#page3 #facebook1 {
+	width: 600px;
+	height: 30%;
+	margin-left: 70px;
+	position: absolute;
+	z-index: 1;
+}
+
+#page3 #facebook2 {
+	width: 180px;
+	margin-left: 470px;
+	margin-top: 170px;
+	position: absolute;
+	z-index: 2;
+}
+
+#page3 #social1 {
+	width: 40%;
+	margin-top: 600px;
+	margin-left: 80px;
+}
+
+#page3 #social2 {
+	width: 40%;
+	margin-top: 600px;
+	margin-left: 10px;
+}
+
+#page3 #social3 {
+	width: 40%;
+	margin-left: 80px;
+	margin-top: 10px;
+}
+
+#page3 #social4 {
+	width: 40%;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+/*End page three*/
+
+
+/*ipad */
+@media only screen and (min-width : 640px) 
+and (max-width : 1023px) {
+	body {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1350px 1800px 4500px;
+		font-family: thonburi;   
+	}
+
+	/* Page one */
+	#arrow {
+		width: 60px;
+		margin-top: 50px;
+	}
+
+	/* Begin language switch*/  
+
+	#language {
+		margin-top: -60px;
+		margin-right: 65px;
+	}
+
+	#language button {
+		background-color: transparent;
+		color: white; 
+		float: right;
+		border: none;
+		font-size: 30px;
+	}
+
+	#language #engels {
+		border-left: 2px solid white;
+	}
+
+	#language .selected {
+		color: white;
+		font-size: 40px;
+		margin-top: -9px;
+	}
+
+	/* End language switch */
+	#page1 h1 {
+		margin-top: 85px;
+	}
+
+	#page1 p {
+		font-size: 30px;
+	}
+
+	#page1 #kwfmobiel {
+		width: 830px;
+		margin-left: 180px;
+		margin-top: 32px;
+	}
+
+	/* End page one
+
+	/* Page two */
+	#page2 p {
+		margin-bottom: 30px;
+		margin-top: 10px;
+		margin-left: 60px;
+		font-size: 28px;
+		margin-right: 70px;
+	}
+
+	#page2 h2 {
+		margin-top: 60px;
+		margin-bottom: 20px;
+	}
+
+	#page2 ul {
+		margin-top: -25px;
+		margin-bottom: 20px;
+		margin-left: 50px;
+		font-size: 28px;
+	}
+
+	/* End page two */
+
+	/* Page three */
+	#page3 p {
+		font-size: 28px;
+		margin-left: 60px;
+		margin-right: 70px;
+		margin-top: -20px;
+	}
+
+	#page3 button {
+		width: 275px;
+		height: 85px;
+		font-size: 38px;
+		margin-left: 650px;
+		margin-top: 70px;
+	}
+
+	#page3 #facebook1 {
+		width: 700px;
+		height: 35%;
+	}
+
+	#page3 #facebook2 {
+		margin-left: 550px;
+	}
+	/* End page three */
+
+	/* Page four */
+
+	#page4 span {
+		height: 400px;
+		width: 1055px;
+	}
+
+	#page4 img {
+		margin-left: 670px;
+	}
+
+	/* End page four */
+}
+
+
+/*Dekstop*/
+@media only screen and (min-width : 1024px) {
+	body {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 800px 1300px 1400px;
+		font-family: thonburi;   
+	}
+
+	/* Page one */
+		
+	#arrow {
+		width: 2.5%;
+		margin-top: 40px;
+	}
+
+	/* Begin language switch */ 
+
+	#language {
+		margin-top: -40px;
+		position: absolute;
+		margin-left: 90%;
+		margin-right: 0px;
+		z-index: 4;
+	}
+
+	#language button {
+		background-color: transparent;
+		color: white; 
+		border: none;
+		font-size: 20px;
+	}
+
+	#language #engels {
+		border-left: 2px solid white;
+	}
+
+	#language .selected {
+		color: white;
+		font-size: 30px;
+		margin-top: -9px;
+	}
+
+	/* End language switch */
+
+	#page1 h1 {
+		font-size: 40px;
+		margin-top: 80px;
+	}
+
+	#page1 p {
+		width: 50%;
+		font-size: 24px;
+		margin-top: -20px;
+	}
+
+	#pc2 {
+		display: none;
+	}
+
+	#page1 #kwfdesktop {
+		display: block;
+		width: 22%;
+		margin-left: 65%;
+		margin-top: -250px;
+	}
+
+	#page1 #kwfmobiel {
+		display: none;
+	}
+
+	/* End page one */
+
+	/* Page two */
+	#page2 {
+		padding-top: 70px;
+	}
+
+	#page2 h2 {
+		font-size: 35px;
+		margin-left: 200px;
+		margin-top: 40px;
+		margin-bottom: 10px;
+	}
+
+	#page2 p {
+		width: 70%;
+		margin-left: 200px;
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+
+	#page2 ul {
+		margin-top: -15px;
+		margin-left: 180px;
+		font-size: 20px;
+		margin-bottom: 0px;
+		width: 70%;
+	}
+
+	/* End page two */
+
+	/*Page three */
+
+	#page3 h2 {
+		font-size: 35px;
+	}
+
+	#page3 p {
+		font-size: 20px;
+		margin-bottom: 420px;
+		margin-left: 60px;
+	}
+
+	#page3 h3 {
+		font-size: 25px;
+	}
+
+	/* Posters */
+	#page3 #posters {
+		margin-left: 65%;
+		margin-top: -450px;
+	}
+
+	#page3 #posters h3 {
+		margin-left: -135px;
+		position: absolute;
+		margin-top: 50px;
+	}
+
+	#page3 #poster1{
+		width: 180px;
+		position: absolute;
+		z-index: 3;
+		margin-left: -135px;
+		margin-top: 100px;
+	}
+
+	#page3 #poster2 {
+		width: 180px;
+		position: absolute;
+		z-index: 1;
+		margin-left: 50px;
+		margin-top: 100px;
+	}
+
+	#page3 #poster3 {
+		width: 180px;
+		position: absolute;
+		z-index: 2;
+		margin-left: -135px;
+		margin-top: 360px;
+	}
+
+	#page3 #poster4 {
+		width: 180px;
+		position: absolute;
+		z-index: 1;
+		margin-left: 50px;
+		margin-top: 360px;
+	}
+
+	/* End posters */
+
+	/* Flyers*/
+
+	#page3 #flyers {
+		margin-top: 540px;
+		margin-left: 50%;
+	}
+
+	#page3 #flyers h3 {
+		margin-top: 540px;
+		position: absolute;
+	}
+
+	#page3 #flyer1 {
+		width: 210px;
+		position: absolute;
+		margin-top: 590px;
+	}
+
+	#page3 #flyer2 {
+		width: 210px;
+		position: absolute;
+		margin-top: 590px;
+		margin-left: 300px;
+
+	}
+
+	/* End flyers */
+
+	/*Social media */
+
+	#page3 #online {
+		margin-top: -480px;
+	}
+
+	#page3 #facebook1 {
+		width: 480px;
+		height: 300px;
+	}
+
+	#page3 #facebook2 {
+		width: 140px;
+		margin-top: 97px;
+		margin-left: 435px;
+	}
+
+	#page3 #social1 {
+		width: 230px;
+		position: absolute;
+		margin-top: 400px;
+	}
+
+	#page3 #social2 {
+		width: 230px;
+		margin-left: 320px;
+		margin-top: 430px;
+		position: absolute;
+	}
+
+	#page3 #social3 {
+		width: 230px;
+		margin-top: 640px;
+		position: absolute;
+	}
+
+	#page3 #social4 {
+		width: 230px;
+		margin-left: 320px;
+		margin-top: 670px;
+		position: absolute;
+	}
+
+	/* End social media */
+
+	#page3 button {
+		width: 155px;
+		height: 45px;
+		font-size: 22px;
+		margin-left: 60px;
+		margin-top: 10px;
+	}
+
+	/* End of page three */
+
+}

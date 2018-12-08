@@ -1,0 +1,190 @@
+body {
+	font-family: thonburi;   
+}
+
+#page1 {
+	margin: -15px;
+	background-image: url('background1.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 1750px;
+}
+
+#close {
+	width: 7%;
+	margin-left: 65px;
+	margin-top: -10px;
+	position: relative;
+	z-index: 3;
+}
+
+/* Begin language switch */ 
+
+#language {
+	padding-top: 90px;
+	margin-right: 65px;
+	position: relative;
+	z-index: 3;
+}
+
+#language button {
+	background-color: transparent;
+	color: #BBB1A7; 
+	float: right;
+	border: none;
+	font-size: 42px;
+}
+
+#language #engels {
+	border-left: 2px solid #BBB1A7;
+}
+
+#language .selected {
+	color: white;
+	opacity: 0.8; 
+	font-size: 52px;
+	margin-top: -9px;
+}
+
+/* End language switch */
+
+#menubackground {
+	background-color: #65584D;
+	opacity: 0.6;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+	margin-top: -950px;
+	padding-right: 15px;
+}
+
+/* nav*/
+
+#nav {
+	position: relative;
+	z-index: 3;
+}
+
+#page1 #nav {
+	display: block;
+}
+
+#page1 ul {
+	list-style: none;
+	z-index: 4;
+	margin-left: -45px;
+	text-align: center;
+	padding-top: 200px;
+}
+
+#page1 li {
+	position: relative;
+	margin-left: 20px;
+	margin-top: 45px;
+}
+
+#page1 li > a {	
+	text-decoration: none;
+	color: white;
+	font-size: 72px;
+}
+
+/* End nav */
+
+/*ipad */
+@media only screen and (min-device-width : 600px) 
+and (max-device-width : 1279px) {
+	#page1 {
+		margin: -15px;
+		background-image: url('background2.png');
+		background-size: 105%;
+		background-repeat: no-repeat;
+		height: 1320px;
+	}
+
+	#close {
+		width: 4.8%;
+		margin-left: 65px;
+		margin-top: -7px;
+		position: relative;
+		z-index: 3;
+	}
+
+	/* Begin language switch */ 
+
+	#language {
+		padding-top: 65px;
+		margin-right: 65px;
+		position: relative;
+		z-index: 3;
+	}
+
+	#language button {
+		background-color: transparent;
+		color: #BBB1A7; 
+		float: right;
+		border: none;
+		font-size: 30px;
+	}
+
+	#language #engels {
+		border-left: 2px solid #BBB1A7;
+	}
+
+	#language .selected {
+		color: white;
+		opacity: 0.8; 
+		font-size: 40px;
+		margin-top: -9px;
+	}
+
+	/* End language switch */
+	
+	#menubackground {
+		background-color: #65584D;
+		opacity: 0.6;
+		display: block;
+		width: 100%;
+		height: 111.2%;
+		position: absolute;
+		z-index: 2;
+		margin-top: -950px;
+		padding-right: 15px;
+	}
+
+	/* nav*/
+
+	#nav {
+		position: relative;
+		z-index: 3;
+	}
+
+	#page1 #nav {
+		display: block;
+	}
+
+	#page1 ul {
+		list-style: none;
+		z-index: 4;
+		margin-left: -45px;
+		text-align: center;
+		padding-top: 200px;
+	}
+
+	#page1 li {
+		position: relative;
+		margin-left: 20px;
+		margin-top: 45px;
+	}
+
+	#page1 li > a {	
+		text-decoration: none;
+		color: white;
+		font-size: 53px;
+	}
+
+	/* End nav */
+
+}
